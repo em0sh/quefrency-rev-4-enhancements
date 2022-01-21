@@ -1,41 +1,22 @@
-Quefrency Keyboard Case
+Quefrency Keyboard Case Rev. 4 Enhancements
 =======================
+This repository is forked from keebio's quefrency-case repository.
 
-Here's case design file for the [Quefrency](https://keeb.io/products/quefrency-60-split-staggered-keyboard). You can turn on/off various layers to generate the different plates needed.
+The purpose of this repository is to offer enhancements to the current Rev. 4 quefrency keyboard.
 
-The main files that the everything else has been derived from are the .ai (Adobe Illustrator) files. The .ai files have multiple layers to toggle on/off to generate the correct set of plates/mid-layers/etc. All of the DXF files have been derived from the .ai files.
+Enhancements
+-------
+### 60% Right Half Configuration - 60% Rev3 to Rev4 Adapter.stl
+To have a 60% right half for Rev. 4, you must use Rev. 3 switch plates.
 
-## Rev. 1 vs. Rev. 2
+With the change from Rev. 3 to Rev. 4 of the board, the bottom right in a 60% configuration has changed to a 2x 1.25u + 2x 1u arrangement. This leaves a 14mm gap between the 1.25u and 1u keycaps.
+![Screenshot 2022-01-21 073029](https://user-images.githubusercontent.com/5571738/150485069-6736586d-5676-47a0-85ce-de8ac400a616.png)
 
-The difference between Rev 1 and Rev 2 plates are the following:
 
-- Rev 2 does not have Alps support, while Rev 1 does
-- Rev 2 adds ISO support and a few more bottom row layout options
-- Rev 2 has a different arrangement of screw/standoff holes to allow for an acrylic mid layer to be used
+The following adapter will fill this gap. It is sized as a press fit as the variance between 3D printers wouldn't allow this to be sized perfectly. Use sandpaper to reduce the size of the spacer to fit on the two press fit faces (top and bottom).
+![Screenshot 2022-01-21 073103](https://user-images.githubusercontent.com/5571738/150485078-4d8283ad-2da0-40b2-9d6b-db94f9f940f3.png)
 
-## Rev. 2
 
-All of the DXF files are in metric (millimeters).
-
-### Switch Plates
-The plate files in the [main rev2 directory](rev2/) are designed for 1.5mm thick plates. If doing acrylic plates, then either a thickness of 3mm or 5mm should be used. Files for these thicker plates can be found in the [3mm Plates](rev2/3mm Plates) and [5mm Plates](rev2/5mm Plates) directories. The difference with these thicker plates is that the stabilizer cutouts are larger to accomdate the stabilzer housing and wire.
-
-### 3D printed middle layers
-The current STLs are temporary ones, and better ones that fit around the TRRS jack and USB-C port will be worked on and released later.
-
-## Rev. 3
-
-The only difference between Rev. 2 and 3 is that Rev. 3 replaced the TRRS port with a USB-C port. The Rev. 2 files should still work fine with the Rev. 3 PCB.
-
-![](images/rev3-shells.jpeg)
-
-Inside of the [enclosed-case-rev3-rev4 directory](enclosed-case-rev3-rev4/) are files to print an enclosing shell around the board. They will need to be used in conjuction with the FR4 plates from the store.
-
-The top shells for Rev. 3 can be used for Rev. 2, but currently, there's no matching middle layer files to match the shells.
-
-## Rev. 4
-
-For the Rev. 4 hotswap PCB, you can use the files in [enclosed-case-rev3-rev4 directory](enclosed-case-rev3-rev4/). Plates are the same as [Rev. 2](rev2/). If you want the blockered version of the right half switch plate, see the [Rev. 4](rev4/) directory.
 
 License
 -------
