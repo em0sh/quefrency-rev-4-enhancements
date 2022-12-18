@@ -6,6 +6,11 @@ The purpose of this repository is to offer enhancements to the current Rev. 4 qu
 
 Enhancements
 -------
+### Low Profile 3D Print Case
+To be used with 5mm length 2mm screw standoffs. Reduces the overall profile of the keyboard and enhances sound. Can be used with foam.
+
+
+
 ### 60% Right Half Configuration - 60% Rev3 to Rev4 Adapter.stl
 To have a 60% right half for Rev. 4, you must use Rev. 3 switch plates.
 
